@@ -1,2 +1,2 @@
-# Aplicação exemplo de uma api-rest implementada usando a especificação JavaEE 7. 
-# Usando como servidor de aplicação o Jboss EAP 7
+# Aplicação exemplo de implementação de micro-service para apresentação da Escola de Arquitetos Stefanini 2018 
+
