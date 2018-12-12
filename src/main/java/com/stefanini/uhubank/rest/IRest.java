@@ -13,7 +13,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import com.stefanini.uhubank.busines.BusinesException;
-import com.stefanini.uhubank.rest.dto.DTO;
+import com.stefanini.uhubank.dto.DTO;
 
 public interface IRest<T extends DTO<T>, ENTITY> {
 

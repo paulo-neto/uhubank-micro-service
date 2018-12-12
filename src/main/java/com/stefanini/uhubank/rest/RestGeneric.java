@@ -9,8 +9,8 @@ import javax.ws.rs.core.UriInfo;
 import org.apache.log4j.Logger;
 
 import com.stefanini.uhubank.busines.BusinessGeneric;
+import com.stefanini.uhubank.dto.DTO;
 import com.stefanini.uhubank.event.RecursoCriadoEvent;
-import com.stefanini.uhubank.rest.dto.DTO;
 
 public abstract class RestGeneric<T extends DTO<T>,ENTITY> {
 	

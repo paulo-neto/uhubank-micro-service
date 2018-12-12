@@ -10,7 +10,7 @@ import org.jboss.resteasy.client.jaxrs.ResteasyWebTarget;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.stefanini.uhubank.client.PerfilRestClient;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
+import com.stefanini.uhubank.dto.PerfilDTO;
 
 public class ClientRest {
 

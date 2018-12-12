@@ -7,10 +7,10 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
 import com.stefanini.uhubank.busines.BusinesException;
+import com.stefanini.uhubank.dto.PerfilDTO;
 import com.stefanini.uhubank.event.RecursoCriadoEvent;
 import com.stefanini.uhubank.models.Perfil;
 import com.stefanini.uhubank.rest.RestGeneric;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
 import com.stefanini.uhubank.rest.interfaces.IPerfilRest;
 
 public class PerfilRest extends RestGeneric<PerfilDTO,Perfil> implements IPerfilRest<PerfilDTO, Perfil>{

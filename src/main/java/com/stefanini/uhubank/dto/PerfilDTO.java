@@ -1,4 +1,4 @@
-package com.stefanini.uhubank.rest.dto;
+package com.stefanini.uhubank.dto;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

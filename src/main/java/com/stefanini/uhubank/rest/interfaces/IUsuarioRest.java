@@ -13,10 +13,10 @@ import javax.ws.rs.core.Response;
 import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
 
 import com.stefanini.uhubank.busines.BusinesException;
+import com.stefanini.uhubank.dto.DTO;
+import com.stefanini.uhubank.dto.UsuarioDTO;
 import com.stefanini.uhubank.models.Usuario;
 import com.stefanini.uhubank.rest.IRest;
-import com.stefanini.uhubank.rest.dto.DTO;
-import com.stefanini.uhubank.rest.dto.UsuarioDTO;
 
 @Path("usuarios")
 public interface IUsuarioRest<T extends DTO<T>,ENTITY> extends IRest<UsuarioDTO, Usuario> {

@@ -33,7 +33,6 @@ public class ArquivoConverter implements IApiConverter<Arquivo, MultipartFormDat
 
 				MultivaluedMap<String, String> header = inputPart.getHeaders();
 				arquivo.setNome(getFileName(header));
-				// convert the uploaded file to inputstream
 				InputStream inputStream = inputPart.getBody(InputStream.class, null);
 				byte[] bytes = IOUtils.toByteArray(inputStream);
 				arquivo.setConteudo(bytes);

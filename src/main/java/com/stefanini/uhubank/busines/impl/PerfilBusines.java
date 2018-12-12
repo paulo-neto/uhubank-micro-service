@@ -13,10 +13,10 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 
 import com.stefanini.uhubank.busines.BusinesException;
 import com.stefanini.uhubank.busines.BusinessGeneric;
+import com.stefanini.uhubank.dto.PerfilDTO;
 import com.stefanini.uhubank.mesages.KeyMesages;
 import com.stefanini.uhubank.models.Perfil;
 import com.stefanini.uhubank.repository.RepositoryException;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
 
 
 @Stateless

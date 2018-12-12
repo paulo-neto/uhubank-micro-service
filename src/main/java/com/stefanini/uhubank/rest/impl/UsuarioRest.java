@@ -10,11 +10,11 @@ import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
 
 import com.stefanini.uhubank.busines.BusinesException;
 import com.stefanini.uhubank.busines.impl.UsuarioBusines;
+import com.stefanini.uhubank.dto.UsuarioDTO;
 import com.stefanini.uhubank.event.RecursoCriadoEvent;
 import com.stefanini.uhubank.models.Perfil;
 import com.stefanini.uhubank.models.Usuario;
 import com.stefanini.uhubank.rest.RestGeneric;
-import com.stefanini.uhubank.rest.dto.UsuarioDTO;
 import com.stefanini.uhubank.rest.interfaces.IUsuarioRest;
 
 public class UsuarioRest extends RestGeneric<UsuarioDTO,Usuario> implements IUsuarioRest<UsuarioDTO,Usuario> {

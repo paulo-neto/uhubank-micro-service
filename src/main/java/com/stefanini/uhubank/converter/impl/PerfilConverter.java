@@ -9,8 +9,8 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Logger;
 
 import com.stefanini.uhubank.converter.IApiConverter;
+import com.stefanini.uhubank.dto.PerfilDTO;
 import com.stefanini.uhubank.models.Perfil;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
 
 public class PerfilConverter implements IApiConverter<Perfil, PerfilDTO> {
 	

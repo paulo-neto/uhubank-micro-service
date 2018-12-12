@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import com.stefanini.uhubank.busines.BusinesException;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
+import com.stefanini.uhubank.dto.PerfilDTO;
 
 @Consumes(value = { MediaType.APPLICATION_JSON })
 public interface PerfilRestClient {

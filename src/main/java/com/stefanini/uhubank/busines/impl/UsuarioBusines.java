@@ -16,12 +16,12 @@ import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
 import com.stefanini.uhubank.busines.BusinesException;
 import com.stefanini.uhubank.busines.BusinessGeneric;
 import com.stefanini.uhubank.converter.impl.ArquivoConverter;
+import com.stefanini.uhubank.dto.UsuarioDTO;
 import com.stefanini.uhubank.mesages.KeyMesages;
 import com.stefanini.uhubank.models.Perfil;
 import com.stefanini.uhubank.models.Usuario;
 import com.stefanini.uhubank.repository.RepositoryException;
 import com.stefanini.uhubank.repository.impl.PerfilRepository;
-import com.stefanini.uhubank.rest.dto.UsuarioDTO;
 import com.stefanini.uhubank.util.HashPasswordUtil;
 
 @Stateless

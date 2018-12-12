@@ -4,9 +4,6 @@ import com.stefanini.uhubank.mesages.MesagesProperties;
 
 public class BusinesException extends Exception {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public BusinesException() {

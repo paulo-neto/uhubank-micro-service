@@ -4,10 +4,10 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
 
+import com.stefanini.uhubank.dto.DTO;
+import com.stefanini.uhubank.dto.PerfilDTO;
 import com.stefanini.uhubank.models.Perfil;
 import com.stefanini.uhubank.rest.IRest;
-import com.stefanini.uhubank.rest.dto.DTO;
-import com.stefanini.uhubank.rest.dto.PerfilDTO;
 
 @Path("perfis")
 @Consumes(value = { MediaType.APPLICATION_JSON })

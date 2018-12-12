@@ -22,9 +22,6 @@ import com.stefanini.uhubank.mesages.KeyMesages;
 
 public abstract class GenericRepositoryImpl<T> implements IGenericRepository<T>, Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 6163696283184654122L;
 	
 	@PersistenceContext
@@ -170,23 +167,7 @@ public abstract class GenericRepositoryImpl<T> implements IGenericRepository<T>,
 			return Collections.emptyList();
 		}
 	}
-	
-	
-	
-	/**
-	 * Objetivo:
-     * Dada uma entidade, obter o valor contido no atributo marcado 
-     * como ID (@Id).
-     * 
-     * Funcionamento:
-     * Através reflection obtém a entidade marcada com a annotation @Id e o 
-     * seu respectivo valor
-     *
-     * @author Paulo Antonio
-	 * @param entidade
-	 * @return
-	 * @throws Exception
-	 */
+
 	protected Long getId(T entidade) throws Exception {
 		Field[] fields = entidade.getClass().getDeclaredFields();
 		for (Field field : fields) {
