@@ -20,6 +20,7 @@ public class ClientRest {
 		PerfilRestClient perfilClient = target.proxy(PerfilRestClient.class);
 		
 		try {
+//			dfgkhjfdk
 //			PerfilDTO dto = new PerfilDTO(null,"DBA");
 //			Response criar = perfilClient.criar(dto);
 //			System.out.println(criar.toString());
